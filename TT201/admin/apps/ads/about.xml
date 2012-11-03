@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationInfo>
+	<name>Reklamy</name>
+	<author>Paweł Klockiewicz</author>
+	<icon>icon.png</icon>
+	<desc>Prosty menadżer reklam.</desc>
+	<md5_admin></md5_admin>
+	<md5_page></md5_page>
+	<app_version>1.0</app_version>
+	<version>0.9</version>
+	<sql_tables>tentego_ads</sql_tables>
+	<requirements></requirements>
+</ApplicationInfo>

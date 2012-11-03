@@ -1,0 +1,3 @@
+<filesMatch "\.(xml|sql)$">
+	deny from all
+</filesMatch>

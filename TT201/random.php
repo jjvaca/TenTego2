@@ -1,0 +1,27 @@
+<?php
+	ob_start();
+	//Loading core of application
+		require_once("_core/kernel.php");
+		$kernel = new kernel();
+
+	//Loading settings of application
+		$kernel->load_module("settings");
+			require_once("_core/rewrite.php");
+		$kernel->load_module("manager");
+		$kernel->load_module("ads");
+		$kernel->load_module("users");
+		$kernel->load_module("inbox");
+	//Loading main theme
+		$page = $kernel->settings;
+		$theme = $page->load('theme');
+		$img = $kernel->manager;
+		$ads = $kernel->ads;
+		$user = $kernel->users;
+		$inbox = $kernel->inbox;
+		$allowed = 'page,theme,img,ads,user,title,inbox,rewrite';
+
+	//Loading functions of user
+		$user->sessionTools();
+		$img->random();
+	ob_end_flush();
+?>

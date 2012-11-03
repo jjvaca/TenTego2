@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationInfo>
+	<name>Użytkownicy</name>
+	<author>Paweł Klockiewicz</author>
+	<icon>icon.png</icon>
+	<desc>Aplikacja zarządzania użytkownikami.</desc>
+	<md5_admin></md5_admin>
+	<md5_page></md5_page>
+	<app_version>1.0</app_version>
+	<version>0.9</version>
+	<sql_tables></sql_tables>
+	<requirements></requirements>
+</ApplicationInfo>

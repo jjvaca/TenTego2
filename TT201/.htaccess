@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^random/$ random.php
+RewriteRule ^waiting/$ waiting.php
+RewriteRule ^add/$ add.php
+RewriteRule ^login/$ login.php
+RewriteRule ^register/$ register.php
+RewriteRule ^contact/$ contact.php
+RewriteRule ^inbox/$ inbox.php
+RewriteRule ^search/$ search.php
+RewriteRule ^rules/$ rules.php
+RewriteRule ^profile/$ profile.php
+RewriteRule ^favorites/$ favorites.php
+RewriteRule ^img/([0-9]+)/(.*)/$ img.php?id=$1
+RewriteRule ^category/(.*)/(.*)/([0-9]+)/$ categories.php?id=$1&title=$2&page=$3
+RewriteRule ^category/(.*)/(.*)/$ categories.php?id=$1&title=$2
+RewriteRule ^user/([0-9]+)/(.*)/$ user.php?id=$1

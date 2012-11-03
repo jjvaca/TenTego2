@@ -1,0 +1,93 @@
+/* ApiGui CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans') screen;
+@import url('http://fonts.googleapis.com/css?family=Varela&subset=latin,latin-ext') screen;
+#apigui {
+	height:100%;
+}
+#apigui table {
+	font-family: 'Varela', sans-serif;
+	width:100%;
+	color:#333;
+	border-spacing:0px;
+	font-size:13px;
+}
+#apigui table th {
+	font-size:inherit;
+	text-align:left;
+	font-weight:bold;
+}
+#apigui table tr td, #apigui table tr th  {
+	padding:10px;
+	margin:0;
+	border-bottom:1px solid #E5E5E5;
+}
+#apigui table tr td a, #apigui table tr th a {
+	color:#1E90FF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#apigui select {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	font-size:13px;
+	width:200px;
+	padding:3px;
+	margin:5px;
+	border-radius:5px;
+}
+#apigui input:not([type~=radio]):not([type~=checkbox]):not([type~=submit]):not([type~=button]) {
+	width:240px;
+	margin:5px;
+	border:1px solid #E5E5E5;
+	padding:3px 5px;
+	font-size:12px;
+	border-radius:5px;
+}
+#apigui input[type~=submit], #apigui input[type~=button] {
+	min-width:90px;
+	border-radius:4px;
+	background:#FFF;
+	border:1px solid #CCC;
+	padding:2px 20px;
+	font-size:15px;
+	font-weight:bold;
+}
+#apigui textarea {
+	width:100%;
+	min-height: 85px;
+	margin:5px;
+	border:1px solid #E5E5E5;
+	padding:3px 5px;
+	font-size:12px;
+	border-radius:5px;
+}
+#apigui label {
+	display:inline-block;
+	background:#FFF;
+	border-radius:5px;
+	border:1px solid #F0F0F0;
+	padding:3px;
+	font-size:13px;
+	font-variant:normal;
+	font-weight:normal;
+}
+#apigui h2 {
+	font-family: 'Varela', sans-serif;
+	font-size:22px;
+	font-variant:small-caps;
+	color:#333;
+}
+#apigui a {
+	color:#9F0000;
+	text-decoration:none;
+}
+
+#apigui #options, #apigui .options {
+	background: #F3F3F3;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	padding: 15px;
+	margin-bottom: 15px;
+	display: block;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationInfo>
+	<name>Menadżer obiektów</name>
+	<author>Wojciech Król</author>
+	<icon>icon.png</icon>
+	<desc>Aplikacja służąca do zarządzania obiektami na głównej i w poczekalni serwisu opartego o TenTego.</desc>
+	<md5_admin></md5_admin>
+	<md5_page></md5_page>
+	<app_version>1.0</app_version>
+	<version>0.9</version>
+	<sql_tables>tentego_manager</sql_tables>
+	<requirements>shadowbox</requirements>
+</ApplicationInfo>
